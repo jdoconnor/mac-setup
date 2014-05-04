@@ -20,6 +20,7 @@ cask install virtualbox --appdir=/Applications
 cask install vagrant --appdir=/Applications
 
 # install service stuff
+link libtool
 install mysql
 install elasticsearch
 install redis
