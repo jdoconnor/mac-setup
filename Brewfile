@@ -16,6 +16,7 @@ cask install iterm2 --appdir=/Applications
 cask install robomongo --appdir=/Applications
 cask install ngrok --appdir=/Applications
 cask install shuttle --appdir=/Applications
+cask install virtualbox --appdir=/Applications
 cask install vagrant --appdir=/Applications
 
 # install service stuff
