@@ -1,6 +1,19 @@
 # taps
 tap caskroom/cask
 
+# install service stuff
+link libtool
+install mysql
+install elasticsearch
+install redis
+install mongodb
+install memcached
+install rabbitmq
+install node
+install sqlite
+install imagemagick
+
+
 # casks (mac apps)
 install caskroom/cask/brew-cask
 
@@ -18,15 +31,4 @@ cask install ngrok --appdir=/Applications
 cask install shuttle --appdir=/Applications
 cask install virtualbox --appdir=/Applications
 cask install vagrant --appdir=/Applications
-
-# install service stuff
-link libtool
-install mysql
-install elasticsearch
-install redis
-install mongodb
-install memcached
-install rabbitmq
-install node
-install sqlite
-install imagemagick
+cask install launchrocket --appdir=/Applications
